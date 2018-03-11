@@ -1,16 +1,16 @@
 // index.js
 // 七牛文档参阅 https://developer.qiniu.com/kodo/sdk/1289/nodejs 
 const qiniu = require('qiniu')
-    , config = new qiniu.conf.Config()
-    , wait = require('../wait')
+	, config = new qiniu.conf.Config()
+	, wait = require('../wait')
 
 let QINIU_DOMAIN = 'http://喵啦.com'
 	, accessKey = '***  deseczn  ***'
-    , secretKey = '***  deswan   ***'
+	, secretKey = '***  deswan   ***'
 	, mac = null
 	// , bucketManager = new qiniu.rs.BucketManager(mac, config)
 	, bucketManager = null
-    , opt = {
+	, opt = {
 		scope: '喵',
 		bucket: '啦', 
 		expires: 1200, 
