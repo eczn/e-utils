@@ -109,8 +109,6 @@ function fetch(target_url, key){
 						respBody.url = key2url(respBody.key);
 					}
 
-					console.log('[ FETCH ]', respInfo.statusCode, respBody.url);
-
 					res(respBody); 
 				}
 			});

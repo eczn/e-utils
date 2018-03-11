@@ -37,11 +37,28 @@ key 为该文件再对象存储空间的路径
 
 ``` js
 // 已经完成了初始化 
-
 let uploading = qnx.upload('./README.md', 'my/readme.md'); 
 
-
 uploading.then(res => {
+    let { hash, key, url } = res; 
+    // hash 是文件 hash 
+    // key  是文件 key，与 upload 函数的第二个参数一致
+    // url  是文件的 url
+}); 
+```
+
+## qnx.fetch(target_url, key) 
+
+抓取 target_url 到自己的对象存储中。 
+
+target_url 远程文件URL 
+key 该文件再对象存储空间的路径
+
+``` js
+// 已经完成了初始化 
+let fetching = qnx.fetch('https://github.com', 'fetch/github.index.html'); 
+
+fetching.then(res => {
     let { hash, key, url } = res; 
     // hash 是文件 hash 
     // key  是文件 key，与 upload 函数的第二个参数一致
