@@ -1,5 +1,6 @@
 const qnx = require('./qnx')
+    , wait = require('./wait')
 
 module.exports = {
-    qnx
+    qnx, wait
 }
