@@ -1,6 +1,6 @@
 {
   "name": "eczn-utils",
-  "version": "0.0.31",
+  "version": "0.0.4",
   "description": "my utils",
   "main": "index.js",
   "scripts": {
