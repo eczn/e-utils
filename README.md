@@ -9,6 +9,14 @@
 
 # 使用方法 
 
+安装 
+
+``` bash
+$ npm i --save eczn-utils 
+```
+
+引用 
+
 ``` js
 const E = require('eczn-utils'); 
 let { wait, qnx } = E; 
