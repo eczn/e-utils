@@ -1,5 +1,5 @@
 {
-  "name": "@eczn/e-utils",
+  "name": "eczn-utils",
   "version": "0.0.1",
   "description": "my utils",
   "main": "index.js",
