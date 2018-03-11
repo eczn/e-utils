@@ -1,0 +1,27 @@
+{
+  "name": "@eczn/e-utils",
+  "version": "0.0.1",
+  "description": "my utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eczn/e-utils.git"
+  },
+  "keywords": [
+    "my",
+    "utils",
+    "e-utils"
+  ],
+  "author": "desEczn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eczn/e-utils/issues"
+  },
+  "homepage": "https://github.com/eczn/e-utils#readme",
+  "dependencies": {
+    "qiniu": "^7.1.3"
+  }
+}
