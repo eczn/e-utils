@@ -7,4 +7,14 @@
 
 所以，决定做成一个 npm 包，发在上面然后要用的时候 require 一下就可以了。 
 
+# 使用方法 
+
+``` js
+const E = require('eczn-utils'); 
+let { wait, qnx } = E; 
+```
+
+# 函数文档 
+
+请打开各个函数的文件夹，里面的 `README.md` 包含着使用方式
 
